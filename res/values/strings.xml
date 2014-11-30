@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Slider Menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Test Picker</item>
+        <item >Assumption Tester</item>
+        <item >Install R Commander</item>
+        <item ></item>
+        <item ></item>
+        <item ></item>
+    </string-array>
+    
+    
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+    
+    <string name="next_button">Next</string>
+    <string name="prev_button">Prev</string>
+    <string name="rpic">R Installation Pictures</string>
+    <string name="step1">1) To install R you need to go to the homepage. Type http://www.r-project.org/ into your browser.</string>
+    <string name="step2">2) In this example we will install R on a Windows machine so select \"Download R for Windows\".</string>
+    <string name="step3">3) In this window, select the basic installation labelled as \'base\'.</string>
+    <string name="step4">4) Next, select download R(version number) for Windows.</string>
+    <string name="step5">5) Select your language.</string>
+    <string name="step6">6) Select next.</string>
+    <string name="step7">7) Select next.</string>
+    <string name="step8">8) Select next.</string>
+    <string name="step9">9) If your machine is 64 bit, then select this option from the dropdown menu or deselct the 32bit tab shown.</string>
+    <string name="step10">10) If no is selected, click next.</string>
+    <string name="step11">11) Click next.</string>
+    <string name="step12">12) Click next.</string>
+    <string name="step13">13) To use R with an easyto use graphical interface and avoid writing short programming scripts we can
+        install the R Commander. To do this enter the command shown and press enter. It may ask you to select your country as 
+        part of the installation.</string>
+    <string name="step14">14) Now that R Commander is installed, we mustload it up using the command shown.</string>
+    <string name="step15">15) Congratulations, you have installed R and the easy to use R Commander interface.</string>
+   
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+     <string name="content_guru">Guru Image</string>
+    <string name="content_question">Image with Question</string>
+    <string name="content_help">Help Button</string>
+    <string name="content_butler">Butler</string>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="startChecking">Start Checking</string>
+    <string name="assumptionsHome">Statistical tests are great, but they are only reliable if certain assumptions about the data hold true. 
+        Each test has different assumptions so it gets confunsing. Luckily Bat Stats will tell you the assuption you need to meet for each test
+        and will also suggest alternative tests when your assumptions are not met. Click below to start!</string>
+    
+
+    
+    
+    <!--  Pearson Correlation or Regression -->
+    <string name="As1">
+    1)   You\'re two variables should be continuous.\n\n
+    2)   You\'re two varibles should have a linear relationship.\n\n
+    3)   You\'re data has no significant outliers.\n\n
+    4)   You\'re variables should be normally distributed.\n\n
+    </string>
+    
+    <string name="As2">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Bootstrap Correlation \n\n
+    2) 	  Regression \n\n
+    3)	  Spearman Correlation \n\n
+    4)    Kendall\'s tau. \n\n
+    </string>
+    
+    <!-- Dependtent t-test -->
+    <string name="As3">
+    1)   You\'re dependent variable should be continuous\n\n
+    2)   You\'re independent variable should consist of one group that is measured at two different time points.\n\n
+    3)   You\'re two related groups should not have outliers showing unusually significant changes between tim-points.\n\n
+    4)   The differences in the dependent variable between the two related groups should be approximately normally distributed.\n\n
+    </string>
+    
+    <string name="As4">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Bootstapped t-test.\n\n
+    2) 	  Wilcoxon matched-pairs test.\n\n
+    </string>
+    
+        <!-- Independent t-test  -->
+    <string name="As5">
+    1)   Your dependent variable should be continuous.\n\n
+    2)   You\'re independent variable should consist of two independent groups, for example males and females.\n\n
+    3)   Your groups should have true independence meaning that their are no hidden relationships. For example, the same participant can not be on both groups.\n\n
+    4)   Each group of the independent variable should display an approximately normal distribution for the dependent variable.\n\n
+    5.)  There should be no skewness arising from significant outliers.\n\n
+    6.)  There should be homogeneity of variance. \n\n
+    </string>
+    
+    <string name="As6">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Bootstapped t-test. \n\n
+    2) 	  Mann-Whitney Test. \n\n
+    </string>
+    
+    
+        <!--One-way Repeated Measures ANOVA -->
+    <string name="As7">
+    1)   The dependent variable should be continuous.\n\n
+    2)   The independent variable should have at least two related groups. For example, a group of smokers measured at two time points.\n\n
+    3)   The data should be skewed by significant outliers.\n\n
+    4)   The differences in the dependent variable between the two related groups should be approximately normally distributed.\n\n
+    5)   The assumption of sphericity cannotbe violated. This means that the differences between all possible pairs of groups should have a similar variance. This assumption can be tested using Mauchly\'s test of sphericity.\n\n 
+    </string>
+    
+    <string name="As8">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Bootstrappped ANOVA. \n\n
+    2) 	  Friedman\'s ANOVA. \n\n
+    </string>
+     
+    
+    
+     <!--One-way Independent ANOVA -->
+    <string name="As9">
+    1)   The dependent variable should be continuous.\n\n
+    2)   You\'re independent variable should consist of two independent groups, for example males and females.\n\n
+    3)   Your groups should have true independence meaning that their are no hidden relationships. For example, the same participant can not be on both groups.\n\n
+    4)   There should be no skewness arisingfrom significant outliers.\n\n
+    5)   Each group of the independent variable should display an approximately normal distribution for the dependent variable.\n\n 
+    6)   There should be homogeneity of variances. This can be tested with Levene\'s test. \n\n
+    </string>
+    
+    <string name="As10">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Robust ANOVA.\n\n
+    2) 	  Kruskal Wallace Test. \n\n
+    </string>
+    
+    
+    <!-- Multple Regression-->
+    <string name="As11">
+    1)   The dependent variable should be continuous.\n\n
+    2)   You must two or more independent variables which can be continuous or categorical.\n\n
+    3)   Your groups should have true independence meaning that their are no hidden relationships. For example, the same participant can not be on both groups.\n\n
+    4)   All relationships between the indepednt variables and the dependent variables should be linear.\n\n
+    5)   Your data should display homoscedasticity which means that the variance of your variables be similar along different levels of the Independent variables. \n\n 
+    6)   You must avoid multicollinearity which refers to correlations between the Independent variables.\n\n
+    7)   There should be no skewness arising from significant outliers.\n\n
+    8)   Residuals should not vary considerably and should therefore resemble a normal distribution.
+    </string>
+    
+    <string name="As12">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Bootstraped Multiple Regression. \n\n
+    </string>
+    
+    
+    <!-- Factorial Repeated Measures ANOVA  -->
+    <string name="As13">
+    1)   The dependent variable should be continuous.\n\n
+    2)   You must two or more independent variables which can be continuous or categorical.\n\n
+    3)   Their should be two or more within-subjects factors. These related groups should also be categorical.\n\n
+    4)   There should be no skewness arising from significant outliers.\n\n
+    5)   The differences in the dependent variable between any two of the related groups should be approximately normally distributed.\n\n 
+    6)   The assumption of spehricity cannot be violated. This means that the differences between all possible pairs of groups should have a similar variance. This assumption can be tested using Mauchly\'s test of sphericity.\n\n
+    </string>
+    
+    <string name="As14">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Robust Factorial Repeated Measures ANOVA. \n\n
+    </string>
+    
+    
+     <!-- Independent Factorial ANOVA  -->
+    <string name="As15">
+    1)   The dependent variable should be continuous.\n\n
+    2)   The independent variables should consist of at least two categorical, independent groups.\n\n
+    3)   Your groups should have true independence meaning that their are no hidden relationships. For example, the same participant can not be on both groups.\n\n
+    4)   There should be no skewness arising from significant outliers.\n\n
+    5)   The differences in the dependent variable between any two of the related groups should be approximately normally distributed.\n\n 
+    6)   There should be homogeneity of variances for all pairs of independent variables. This can be tested with Levene\'s test.\n\n
+    </string>
+    
+    <string name="As16">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Robust Independent Factorial ANOVA. \n\n
+    2)    Multiple Regression.\n\n
+    </string>
+    
+    <!-- Factorial Mixed ANOVA  -->
+    <string name="As17">
+    1)   The dependent variable should be continuous. \n\n
+    2)   Your within-subjects independent variables should have 2 or more categorical, dependent groups.\n\n
+    3)   Your between-subjects independent variables should have 2 or more categorical, independent groups.\n\n
+    4)   There should be no skewness arising from significant outliers in either of the between-subjects or within-subjects groups.\n\n
+    5)   The differences in the dependent variable between any two of the groups should be approximately normally distributed.\n\n 
+    6)   There should be homogeneity of variances for all pairs of factors. This can be tested with Levene\'s test.\n\n
+    7)   The assumption of spehricity cannot be violated. This means that the differences between all possible pairs of groups should have a similar variance. This assumption can be tested using Mauchly\'s test of sphericity.
+    </string>
+    
+    <string name="As18">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Robust Factorial Mixed ANOVA.\n\n
+    </string>
+    
+    
+    <!-- ANCOVA  -->
+    <string name="As19">
+    1)   The dependent variable should be continuous.\n\n
+    2)   The independent varaible should have at least 2 categorical groups.\n\n
+    3)   Your groups should have true independence meaning that their are no hidden relationships. For example, the same participant can not be on both groups.\n\n
+    4)   There should be no skewness arising from significant outliers.\n\n
+    5)   Each independent variable should give rise to an approximately normal distrinution in the dependent variable.\n\n 
+    6)   There should be homogeneity of variances for all pairs of factors. This can be tested with Levene\'s test.\n\n
+    7)   At all levels of the independent varibale, the covariate should be linearly related to the dependent variable.\n\n
+    8)   There must be homoscedasticity meaning that the variance around the line of best-fit should be equal along different levels of the independent variable. \n\n
+    9)   There should be no relationship between the covariate and any of the independent variables. \n\n
+    </string>
+    
+    <string name="As20">
+    If your data violates any of these assumptions you should
+    consider using one of the following: \n\n
+    
+    1)    Robust ANCOVA. \n\n
+    2)    Bootsrtapped Regression \n\n
+    </string>
+
+
+    <string name="One">One</string>
+    <string name="MoreThanOne">Two or More</string>
+    <string name="Continuous">Continuous</string>
+    <string name="Categorical">Categorical</string>
+    <string name="Both">Both</string>
+    <string name="Same">Same</string>
+    <string name="Different">Different</string>
+    <string name="Two">Two</string>
+    <string name="MoreThanTwo">More Than Two</string>
+    <string name="CategoricalAndContinuous">Cont. and Cat.</string>
+    
+    
+    <string name="HelpQ1">Outcome variables, also known as dependent variables, are dependent on the 
+        predictor variables. For example, an outcome variable could the age at which people developed lung cancer. This is an outcome variabe
+        or a dependent variable because it depends on your predictors which may include factors such as whether participants smoked or whether they had
+        a history of cancer in their family.\n\n This question is asking you how many outcome varibales you want to measure. The age at which people develop
+        lung cancer is an example of one dependent/outcome variable, but if you also wanted to measure the severity of the cancer, then that would be an example of two outcome/dependent variables. </string>
+    
+    <string name="HelpQ2">There are two main types of variable refered to either continuous or categorical. These two types apply to both predictor variables and
+        outcome variables. An example of a categorical variable is Gender because Gender usually suggests two groups: male or female. However, some variables like age, or IQ are more continuous in nature and aren\'t
+        typically thought of as belonging to groups. Instead we think of continuous varibales as having different levels along a one continuum.\n\n
+        
+        In reality, their are actually four types: Nominal, Ordinal, Interval, and Ratio. However, in practice these distinctions aren\'t extremely important. If you are interested in learning check out wikipedia. </string>
+    
+    <string name="HelpQ3">Predictor variables, also known as independent variables, are what we hypothosise to predict the 
+        outcome variable). For example, a predictor variable could be the number of cigarattes smoked per day. This could be used to predict the prevalency of lung cancer (where lung cancer is the 
+        the outcome variable. In naturalistic studies, the predictors vary naturally. For example, smokers naturally vary in how much they smoke, and this variation is not induced
+        experimentally. In experiemntal studies, the predictor variable is varied artificially to observe the effect it has on the outcome variables. For exampple, giving patients a drug or a placebo drug is 
+        an example of an experimental manipulation of the independent variable( i.e. the drug prescribed) </string>
+
+    <string name="HelpQ4b"> This question is straight-forward. For example, if your predictor variables are Gender and Smoker, then you have four categorical predictor variables. Gender is categoricl because you are either 
+        Male (group1) or Female (group2).  Likewise for Smoker, because you either are (group3), or are not (group4), a smoker. </string>
+        
+    <string name="HelpQ4c"> Experimental studies are sometimes referred to as Within-Subjects, Dependent, Related, or Repeated Measures. All of the these terms describe a study where
+        the different experiemntal groups actually contain the same entities. What does this mean? Imagine a study where participants are given a drug and then they are measured at three separate timepoints
+        in the future to see the effects. In this situation there are three groups, but each group is made up of the same entity (i.e. the patients are the same at each time point.)\n\n
+        Another type of experiemntal design can be  referred to as Between-Subjects, Independent, or Unrelated.In these studies the groups are simply different. For example, the effects of smoking could be measured 
+        on three age groups( under 21\'s, under 30\'s, and under 50\'s). In this case the groups are different and the entities are different(i.e. the patients are different people)   </string>
+</resources>

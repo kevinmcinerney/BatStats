@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.BatStat"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity1">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity2">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity3">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity4">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity5">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity6">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity7">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity8">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity9">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity10">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity11">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity12">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity13">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.MainActivity14">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.HelpActivityQ1">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.HelpActivityQ2">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.HelpActivityQ3">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.HelpActivityQ4">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.HelpActivityQ4b">
+        </activity>
+         <activity
+            android:name="info.androidhive.slidingmenu.HelpActivityQ4c">
+        </activity>
+        <activity
+            android:name="info.androidhive.slidingmenu.TestList">
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.SingleListItem"
+                    android:label="Single Item Selected">
+            
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.PearsonCorrelation"
+                    android:label="List View of Items">
+            
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.AndroidListViewActivity"
+                    android:label="List View of Items">
+        </activity>
+        
+         <activity android:name="info.androidhive.slidingmenu.Multiple_Regression"
+                    android:label="List View of Items">
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.Dependent_t_test"
+                    android:label="List View of Items">
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.Independent_t_test"
+                    android:label="List View of Items">
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.One_Way_Repeated_ANOVA"
+                    android:label="List View of Items">
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.One_Way_Independent_ANOVA"
+                    android:label="List View of Items">
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.Independent_Factorial_ANOVA"
+                    android:label="List View of Items">
+        </activity>
+         <activity android:name="info.androidhive.slidingmenu.Factorial_RM_ANOVA"
+                    android:label="List View of Items">
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.Factorial_Mixed_ANOVA"
+                    android:label="List View of Items">
+        </activity>
+        <activity android:name="info.androidhive.slidingmenu.ANCOVA"
+                    android:label="List View of Items">
+        </activity>
+        
+         
+        
+        
+        
+        
+        
+        
+        
+       
+        
+        
+        
+    </application>
+
+</manifest>

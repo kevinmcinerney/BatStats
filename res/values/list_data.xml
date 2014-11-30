@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="test_list">
+        <item>Pearson Correlation</item>
+        <item>Dependent t-test</item>
+        <item>Independent t-test</item>
+        <item>One Way Repeated Measures ANOVA</item>
+        <item>One Way Independent ANOVA</item>
+        <item>Multiple Regression</item>
+        <item>Factorial Repeated Measures ANOVA</item>
+        <item>Independent Factorial ANOVA</item>
+        <item>Factorial Mixed ANOVA</item>
+        <item>ANCOVA</item>
+    </string-array>
+</resources>

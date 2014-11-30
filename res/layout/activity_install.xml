@@ -1,0 +1,51 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/black">
+
+    <ImageView
+        android:paddingTop="20dp"
+        android:id="@+id/r1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.71"
+        android:contentDescription="@string/rpic"
+        android:src="@drawable/r1"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="25dp"
+        android:textColor="@color/white"
+        android:textSize="30sp" 
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prev_button" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_button" />
+    </LinearLayout>
+
+</LinearLayout>

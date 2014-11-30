@@ -1,0 +1,69 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical"
+	android:background="@color/black">
+	
+    <ImageView
+        android:id="@+id/q4"
+        android:layout_width="500dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.54"
+        android:contentDescription="@string/content_question"
+        android:src="@drawable/q4" />
+	
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.81"
+        android:contentDescription="@string/content_guru"
+        android:src="@drawable/gurunobg" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:paddingBottom="50dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"/>
+   
+	
+	<LinearLayout
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal">
+	    
+	    <Button
+	        android:id="@+id/option1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Continuous"/>
+	     
+	     <Button
+	        android:id="@+id/option2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Categorical"/>
+	       
+	     <Button
+	        android:id="@+id/option3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Both"/>
+	        
+	     <ImageView
+            android:id="@+id/help"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/content_help"
+            android:src="@drawable/help_button" />
+	</LinearLayout>
+</LinearLayout>
+	    
+	    
